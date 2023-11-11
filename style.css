@@ -76,7 +76,31 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
+html{
+  font-size:10px;
+}
+
 h1, h2, h3{
   font-family: 'bebas_neueregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  letter-spacing: .15rem;
+  letter-spacing: .5rem;
+}
+
+h1{
+ font-size: 4rem;
+ kerning: auto;
+}
+
+h2{
+  font-size:3rem;
+  kerning: auto;
+}
+
+
+p{
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+}
+
+li{
+  margin-block:1rem;
 }
