@@ -70,6 +70,8 @@ header, section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
+  display: flex;
+  flex-grow:1;
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
@@ -85,22 +87,31 @@ h1, h2, h3{
   letter-spacing: .5rem;
 }
 
+header{
+  justify-content: center;
+}
+
 h1{
  font-size: 4rem;
  kerning: auto;
+ word-spacing: 1.5rem;
+ 
 }
 
 h2{
   font-size:3rem;
   kerning: auto;
+  word-spacing: 1.3rem;
 }
 
 
 p{
   font-size: 1.7rem;
   line-height: 2.8rem;
+  word-spacing: 1rem;
 }
 
 li{
   margin-block:1rem;
+  word-spacing: 1rem;
 }
